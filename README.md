@@ -17,3 +17,4 @@ An application that you can run along with arguments you want to reverse
 ```
 gcc -o Reverse main.c
 ```
+<br>This should have properly compiled main.c for your Linux/Unix distro as well as made Reverse an executable.<br> 
