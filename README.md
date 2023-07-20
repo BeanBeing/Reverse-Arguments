@@ -13,3 +13,7 @@ An application that you can run along with arguments you want to reverse
 ```
 ./Reverse <Words you want to reverse> <Return>
 ```
+<br>If you are unable to run it then do the following inside this directory in your terminal:
+```
+gcc -o Reverse main.c
+```
