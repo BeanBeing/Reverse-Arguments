@@ -11,10 +11,5 @@ An application that you can run along with arguments you want to reverse
 <br>1. Download the zip or clone this github directory. <br>
 <br>2. Inside the directory run the following in your terminal:
 ```
-./Reverse <Words you want to reverse> <Return>
+make app; cd bin; ./reverse <arguments you want to reverse> <return>
 ```
-<br>If you are unable to run it then do the following inside this directory in your terminal:
-```
-gcc -o Reverse main.c
-```
-<br>This should have properly compiled main.c for your Linux/Unix distro as well as made Reverse an executable.<br> 
