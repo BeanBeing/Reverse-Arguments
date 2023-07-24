@@ -1,8 +1,5 @@
 # WARNING!
-<br>This is highly experimental and might not even be sufficient at all.<br>
-<br>This is my first ever program I have written that takes in command line arguments and does something with it.<br>
-<br>If you encounter errors with this then it'll probably not be fixed since I just wanted to do this for fun and knowledge.<br>
-<br>This project has an MIT license so feel free to do whatever you want to it if you want to modify it.<br>
+<br>This project has an MIT license so feel free to do whatever you want to it if you want to modify it or improve it.<br>
 
 # Reverse-Arguments
 An application that you can run along with arguments you want to reverse
