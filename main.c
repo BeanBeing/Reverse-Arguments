@@ -1,21 +1,20 @@
 #include<stdio.h>
+#include<stdlib.h>
 #include<string.h>
 
 int main(int argc, char *argv[])
 {
-  char* str;
+  char* str = malloc(strlen(argv[1]) + 1);
  
-  // Make sure correct command line arguments are passed
-  if(argc > 7){
-    puts("TOO MANY ARGUMENTS! MAKE SURE TO ONLY PASS 6 ARGUMENTS MAXIMUM!");
+  // argument limit...
+  if(argc > 2){
+    puts("TOO MANY ARGUMENTS! MAKE SURE TO ONLY PASS <argc> OF ARGUMENTS!");
     return 1;
   }
 
   // catonates all arguments along with space for each argument to str
-  for(int i = 1; i < argc; i++){
-    str = strcat(str, argv[i]);
-    str = strcat(str, " ");
-  }
+    strcpy(str, argv[1]);
+    strcat(str, " ");
 
   // Gets length of str
   int length = strlen(str);
@@ -31,6 +30,7 @@ int main(int argc, char *argv[])
   fputs(str, stdout);
   putchar(' ');	// Places empty space afterwards
   putchar('\n');	// New line
+  free(str);	// Frees str malloc
   return 0;
 }
     
