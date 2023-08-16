@@ -1,5 +1,5 @@
 # Hello!
-<br>This project has an MIT license so feel free to do whatever you want to it if you want to modify it or improve it.<br>
+<br>This project has an MIT license so feel free to do whatever you want to it. <br>
 
 # Reverse-Arguments
 An application that you can run along with arguments you want to reverse
