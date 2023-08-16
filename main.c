@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
       return 1;
    }
 
-   // Concatenates every all argv towards str
+   // Concatenates every argv followed by a space to str
    for(int i = 1; i < argc; i++){
       strncat(str, argv[i], 1023);
       strcat(str, " ");
