@@ -27,6 +27,8 @@ int main(int argc, char *argv[])
       str[i] = str[length - 1 - i];
       str[length - 1 - i] = temp;
    }
+
+   str[length] = '\0';
  
    // Print reversed string 
    fputs(str, stdout);
